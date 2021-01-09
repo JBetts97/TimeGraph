@@ -1,5 +1,5 @@
 <div align="center">
-  <a><img src="TimeGraph/assets.xcassets/AppIcon.appiconset/1024x1024.png" alt="TimeGraph logo" height="160"></a>
+  <a><a href="https://ibb.co/vVZW025"><img src="https://i.ibb.co/PFwyqBp/1024x1024.png" height="150" alt="1024x1024" border="0"></a></a>
   <br/>
   <p><strong>TimeGraph</strong> - A macOS Application for booking meetings between timezones.</p>
 
@@ -30,7 +30,7 @@ TimeGraph is built using the following frameworks and tools:
 
 ## Getting Started
 This application is published on the Mac App Store! <br>
-<a><img src="https://www.logolynx.com/images/logolynx/54/54dab276fdf25d4b00773a99a304cf4d.png" alt="TimeGraph logo" height="30"></a>
+<a href="https://apps.apple.com/gb/app/timegraph/id1538325476?mt=12"><img src="https://www.logolynx.com/images/logolynx/54/54dab276fdf25d4b00773a99a304cf4d.png" alt="TimeGraph logo" height="30"></a>
 
 If you want to setup your environment for developing refer to the [contributing](#contributing) section.
 
@@ -47,7 +47,9 @@ Refer to `CONTRIBUTING.md` for more details. <br> <br>
 Xcode requires you to have a Mac meaning unfortunately code contributions will require a mac. You can still contribute to our documentation if you don't have a mac! <br>
 
 To setup the local environment simply:
-1. Clone the repository: <br>
+1. Ensure you have xcode installed. <br>
+
+2. Clone the repository: <br>
 `git clone https://github.com/JBetts97/TimeGraph.git`
 
-2. Run the `TimeGraph.xcodeproj` file which will initiate the xcode developer environment. 
+3. Run the `TimeGraph.xcodeproj` file which will initiate the xcode developer environment. 
