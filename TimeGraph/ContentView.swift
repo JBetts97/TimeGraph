@@ -50,7 +50,7 @@ struct ContentView: View {
             Text("TimeGraph")
                 .font(.largeTitle)
             
-            Spacer()
+            Spacer().frame(width: 100, height: 20, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
             
             // Primary Location (London)
             Text("Location: London, England")
@@ -407,15 +407,15 @@ struct ContentView: View {
                     Text("Reset")
                 }
                 
-                Spacer()
+                
                 
                 // Location Picker
                 VStack{
-                    Picker(selection: $selectedCity, label: Text("Select Location")){
+                    Picker(selection: $selectedCity, label: Text("Location")){
                         ForEach(0 ..< cities.count) {
                             Text(self.cities[$0])
                         }
-                    }
+                    }.frame(width: 350)
                     //Text("You Selected: \(cities[selectedCity])")
                 }
                 
@@ -428,12 +428,12 @@ struct ContentView: View {
                 
                 
             }
-            .padding([.top, .bottom], 10.0)
+            .padding([.top, .bottom], 5.0)
 
 
         }
-        .padding(.all, 10.0)
-        .frame(maxWidth: 900, maxHeight: 220)
+        .padding(.all, 5.0)
+        .frame(maxWidth: 620, maxHeight: 220)
     }
     
 }
