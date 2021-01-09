@@ -1,5 +1,5 @@
 <div align="center">
-  <a><img src="TimeGraph/assets.xcassets/AppIcon.appiconset/1024x1024.png" alt="TimeGraph logo" height="160"></a>
+  <a><a href="https://ibb.co/vVZW025"><img src="https://i.ibb.co/PFwyqBp/1024x1024.png" height="150" alt="1024x1024" border="0"></a></a>
   <br/>
   <p><strong>TimeGraph</strong> - A macOS Application for booking meetings between timezones.</p>
 
