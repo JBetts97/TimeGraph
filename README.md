@@ -4,7 +4,6 @@
   <p><strong>TimeGraph</strong> - A macOS Application for booking meetings between timezones.</p>
 
   [![MIT License](https://img.shields.io/badge/license-MIT-green)]()
-  [![Chat on Discord](https://img.shields.io/badge/chat-discord-green?logo=discord)](https://discord.gg/XM2Pj3J2CS)
 
 </div>
 
